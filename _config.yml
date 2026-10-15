@@ -1,42 +1,72 @@
-title: "My Blogs Name"
-author: "Default Author Name"
-description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+title: "InnovationLet Startups"
+short_title: "Startups"
+tagline: "Funding, founders and the work of growing."
+description: >-
+  InnovationLet Startups covers funding, founders, go-to-market and the
+  operational reality of scaling a company. Independent reporting and
+  analysis from the InnovationLet editorial desk.
+author: "InnovationLet Editorial"
+email: "hello@innovationlet.com"
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "example@mail.com"
-twitter_username: "twitteruser"
-github_username: "githubuser"
-linkedin_username: "linkedinuser"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+lang: "en"
+locale: "en_US"
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
+url: "https://innovationlet.github.io"
+baseurl: "/startups"
+main_site: "https://innovationlet.github.io"
 
-rss: rss
+category_name: "Startups"
+category_meta: "Funding · Founders · Growth"
+accent: "yellow"
+hero_title: "Building companies, without the mythology."
+hero_lead: >-
+  Funding rounds, founder lessons and go-to-market, told with the
+  numbers attached and the failures left in.
 
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
+logo: "/favicon.svg"
+
+twitter_username: "innovationlet"
+github_username: "innovationlet"
+linkedin_username: "innovationlet"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-titles_from_headings:
-  strip_title: true
-  collections: true
+feed:
+  path: "feed.xml"
+
+show_excerpts: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
 
 defaults:
   - scope:
       path: ""
-      type: post
     values:
-      tags: Other
+      image:
+        path: "/assets/images/og-image.png"
+        width: 1200
+        height: 630
+        alt: "InnovationLet — technology and innovation, decoded"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "InnovationLet Editorial"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "vendor"
