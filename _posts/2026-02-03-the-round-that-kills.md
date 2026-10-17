@@ -4,6 +4,14 @@ date: 2026-02-03 09:00:00 +0000
 author: "InnovationLet Editorial"
 tags: [Funding]
 description: "A company can sell for nine figures and leave its founders with a rounding error. The cause is almost always in the fine print of an earlier round, not in the exit itself."
+permalink: "/the-round-that-kills/"
+subtitle: "A $120 million exit can leave founders with almost nothing. The cause is in the preferences."
+keywords: "liquidation preferences, term sheets, exits, venture funding, cap table"
+key_points:
+  - "Liquidation preferences pay investors before common shareholders in an exit."
+  - "Participating preferred without a cap is the clause that empties mid-sized exits."
+  - "The $40M-$200M exit range is where preferences do the most damage."
+  - "Model the waterfall at $50M, $100M and $250M before signing."
 ---
 
 A startup sells for $120 million. The founders celebrate for about a week, then their lawyer sends the waterfall model. After the preferences are paid, they walk away with $1.8 million split four ways. The investors who wrote checks in Series A and B take nearly everything.

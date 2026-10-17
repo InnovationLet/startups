@@ -1,3 +1,6 @@
+# ---------------------------------------------------------------------------
+# InnovationLet — Startups
+# ---------------------------------------------------------------------------
 title: "InnovationLet Startups"
 short_title: "Startups"
 tagline: "Funding, founders and the work of growing."
@@ -5,29 +8,67 @@ description: >-
   InnovationLet Startups covers funding, founders, go-to-market and the
   operational reality of scaling a company. Independent reporting and
   analysis from the InnovationLet editorial desk.
-author: "InnovationLet Editorial"
-email: "hello@innovationlet.com"
+author: "F9XR News Desk"
+email: "hello@f9xr.org"
 
 lang: "en"
 locale: "en_US"
+timezone: "UTC"
 
-url: "https://innovationlet.github.io"
+# Site root. All category sites live under https://innovationlet.f9xr.org/
+url: "https://innovationlet.f9xr.org"
 baseurl: "/startups"
-main_site: "https://innovationlet.github.io"
+main_site: "https://innovationlet.f9xr.org"
 
+# Publisher / trust identity (used by Organization + NewsArticle schema)
+publisher:
+  legal_name: "InnovationLet"
+  parent_org: "F9XR Team"
+  parent_url: "https://f9xr.org"
+  founded: "2026"
+  publishing_principles: "https://innovationlet.f9xr.org/startups/editorial-standards/"
+  logo:
+    path: "/og-image.png"
+    width: 1200
+    height: 630
+
+# Category identity used by the shared theme
 category_name: "Startups"
 category_meta: "Funding · Founders · Growth"
 accent: "yellow"
 hero_title: "Building companies, without the mythology."
 hero_lead: >-
-  Funding rounds, founder lessons and go-to-market, told with the
-  numbers attached and the failures left in.
+  Devices, software, and platforms, explained without the marketing spin.
+  We follow the technical decisions that actually change how things work.
 
 logo: "/favicon.svg"
 
 twitter_username: "innovationlet"
 github_username: "innovationlet"
 linkedin_username: "innovationlet"
+
+social:
+  name: "InnovationLet"
+  links:
+    - "https://twitter.com/innovationlet"
+    - "https://github.com/innovationlet"
+    - "https://www.linkedin.com/company/innovationlet"
+
+twitter:
+  username: "innovationlet"
+  card: "summary_large_image"
+
+# Google AdSense. Leave `client` empty to keep all ad code disabled.
+# Set `client` to your "ca-pub-XXXXXXXXXXXXXXXX" ID to activate the loader,
+# the ads.txt line, and the sitewide verification meta tag.
+adsense:
+  enabled: false
+  client: ""
+  # Optional per-placement slot IDs (used by the in-article ad unit).
+  slot: ""
+
+# Google Search Console / site verification (optional).
+google_site_verification: ""
 
 plugins:
   - jekyll-feed
@@ -37,6 +78,10 @@ feed:
   path: "feed.xml"
 
 show_excerpts: true
+
+# Publish posts dated later than the build time. News desks date stories to the
+# day they run, which is often ahead of the UTC build clock.
+future: true
 
 markdown: kramdown
 kramdown:
@@ -59,7 +104,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "InnovationLet Editorial"
+      author: "F9XR News Desk"
   - scope:
       path: ""
       type: "pages"

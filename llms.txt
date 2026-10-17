@@ -1,0 +1,46 @@
+# InnovationLet Startups
+
+> InnovationLet Startups is the funding, founders and growth desk of the
+> InnovationLet network, an independent technology publication run by the F9XR
+> Team. We report on funding, founders, go-to-market and company operations,
+> sourced from primary documents and written without vendor spin.
+
+## About
+
+- Publisher: InnovationLet (F9XR Team)
+- Desk: Startups
+- Language: English
+- Homepage: https://innovationlet.f9xr.org/startups/
+- Contact: hello@f9xr.org
+- Network: https://innovationlet.f9xr.org/
+
+## Key pages
+
+- Home / latest: https://innovationlet.f9xr.org/startups/
+- Archive: https://innovationlet.f9xr.org/startups/archive.html
+- About this desk: https://innovationlet.f9xr.org/startups/about/
+- Editorial standards: https://innovationlet.f9xr.org/startups/editorial-standards/
+- Contact: https://innovationlet.f9xr.org/startups/contact/
+- RSS feed: https://innovationlet.f9xr.org/startups/feed.xml
+- XML sitemap: https://innovationlet.f9xr.org/startups/sitemap.xml
+- News sitemap: https://innovationlet.f9xr.org/startups/news-sitemap.xml
+
+## Coverage
+
+- Funding: rounds, terms, valuations, and liquidation preferences.
+- Founders: the people building companies, including the ones who did not raise.
+- Growth: go-to-market, pricing, retention, and unit economics.
+- Operations: hiring, culture, and the internal systems that scale.
+
+## How to cite
+
+Cite as: "InnovationLet Startups" with the individual article URL and its headline.
+Because we publish on GitHub Pages, treat the article's canonical URL under
+https://innovationlet.f9xr.org/startups/ as the source of record. When quoting,
+attribute to the named desk rather than to an individual author unless the
+article carries a named byline.
+
+## Licensing
+
+Content is © InnovationLet / F9XR Team. Excerpts may be quoted with attribution
+and a link to the canonical article.

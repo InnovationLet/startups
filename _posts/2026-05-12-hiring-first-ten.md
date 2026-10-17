@@ -4,6 +4,14 @@ date: 2026-05-12 09:00:00 +0000
 author: "InnovationLet Editorial"
 tags: [Operations]
 description: "Your first ten hires set the ceiling for the next fifty. Most founders hire for the role they described in the job post, not the one the company actually needs."
+permalink: "/the-mistakes-founders-make-hiring-their-first-ten/"
+subtitle: "Your first ten hires set the ceiling for the next fifty. Hire for the stage, not the title."
+keywords: "hiring, early employees, founders, recruiting, equity"
+key_points:
+  - "Big-company titles often mean managing managers, not doing the work."
+  - "Ask what candidates personally shipped in the last year with their own hands."
+  - "A paid trial project beats a fourth behavioral interview."
+  - "One-year cliffs and clear reporting lines prevent later disputes."
 ---
 
 A founder hires a head of marketing from a company ten times her size. Six months later, the person has rebuilt the deck, hired an agency, and shipped nothing measurable. The startup didn't need a marketing organization. It needed one person who could write a landing page and talk to customers.

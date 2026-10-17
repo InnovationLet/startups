@@ -4,6 +4,14 @@ date: 2026-03-24 09:00:00 +0000
 author: "InnovationLet Editorial"
 tags: [Growth]
 description: "Wrong pricing doesn't stay wrong, it compounds with every customer you add. Fix the number before growth locks it in."
+permalink: "/set-your-price-before-you-chase-scale/"
+subtitle: "Growth doesn't fix bad pricing, it multiplies it across every customer you add."
+keywords: "pricing, SaaS pricing, growth, unit economics, go-to-market"
+key_points:
+  - "Repricing after scale means re-selling, grandfathering or angering your base."
+  - "Price shapes who buys, their feedback and therefore your roadmap."
+  - "Founders underprice from fear, effort-costing and blind competitor undercutting."
+  - "Test real price points on checkout pages before spending on acquisition."
 ---
 
 A company selling a $29 product to 40,000 customers hit $13 million in annual revenue and still couldn't afford a second engineer. The product worked, retention was solid, growth was healthy. The price was wrong, and by the time they noticed, 40,000 contracts were in the way of fixing it.
